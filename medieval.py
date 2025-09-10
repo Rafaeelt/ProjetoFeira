@@ -20,7 +20,12 @@ while vida_jogador > 0 and vida_inimigo > 0:
     vida_inimigo -= dano_inimigo
     print(f"voce causou {dano_inimigo} de dano ao jogador")
 
-    if vida_inimigo
+    if vida_inimigo <= 0:
+        print("Você ganhou!")
+        break
 
+    if vida_inimigo <= 0:
+        print("Você perdeu!")
+        
 
     
